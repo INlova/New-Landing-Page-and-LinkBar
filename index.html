@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M.A. Nova - Train by Day, Code by Night!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<ul class='window sublime'>
+		<li><span class='green'>var</span> Mike = new <strong>Person</strong>();</li>
+		<li>Mike.name = "<span class='red'>Mike Nova</span>";</li>
+		<li>Mike.home = "<span class='red'>Providence, RI</span>";</li>
+		<li><span class='yellow'>Mike</span>.<span class='blue'>occupation</span> = <span class='green'>function</span>(time) {</li>
+		<li style="list-style: none; display: inline">
+			<ul class='tab'>
+				<li><span class='green'>if</span>(time=="<span class='red'>day</span>") {</li>
+				<li style="list-style: none; display: inline">
+					<ul class='tab'>
+						<li><span class='green'>return</span> "<span class='red'>Computer Science Student</span>"</li>
+					</ul>
+				</li>
+				<li>} <span class='green'>else if</span>(time=="<span class='red'>night</span>"{</li>
+				<li style="list-style: none; display: inline">
+					<ul class='tab'>
+						<li><span class='green'>return</span> "<span class='red'>Front End Developer</span>"</li>
+					</ul>
+				</li>
+				<li>}</li>
+				<li class='current-line'>var link = "<a class='red' href='https://www.linkedin.com/in/getmenova/'>Get me Nova!</a>";
+				</li>
+			</ul>
+		</li>
+	</ul>
+	
+	
+	<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+/*global $*/
+$(document).ready(function(){ // I like to ride my HOVER board - HOVER function! 
+
+	$("#smbar a").hover(function() {
+		$(this).next("em").animate({opacity: "show", top: "-110"}, "slow");
+	}, function() {
+		$(this).next("em").animate({opacity: "hide", top: "-130"}, "fast");
+	});
+
+
+});
+</script>
+
+
+
+<style type="text/css">
+body {
+	background: #f0fcf8 url(images/bg.jpg);	
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#smbar {
+	width:900px;
+	margin:200px auto 0px auto;
+}
+
+#smbar ul {
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	display:block;
+	height:50px;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+#smbar ul li {
+	float:left;
+margin:0 2px;
+padding:0;
+position:relative;
+text-align:center;
+list-style:none;
+display:inherit;
+}
+
+#smbar ul li a {
+	display:block;
+	float:left;
+	margin-right:20px;
+}
+
+#smbar ul li a img {
+	outline:none;
+	border:0px;	
+}
+
+#smbar em {
+	display:none;
+font-style:normal;
+height:68px;
+left:-85px;
+padding:20px 12px 10px;
+position:absolute;
+text-align:center;
+top:-130px;
+width:176px;
+z-index:2;
+background:url(images/hover.png) no-repeat;
+color:#fff;
+font-family:Verdana, Stencil, sans-serif;
+text-transform:uppercase;
+
+}
+
+</style>
+<body>
+<div id="smbar">
+<ul>
+<li><a href="https://www.facebook.com/getmenova"><img src="images/facebook.png" alt="facebook" /></a><em>Friend me on Facebook</em></li>
+<li><a href="https://twitter.com/getmenova"><img src="images/twitter.png" alt="twitter" /></a><em>Follow me on Twitter</em></li>
+<li><a href="https://www.linkedin.com/in/getmenova/"><img src="images/linkedin.png" alt="linkedin" /></a><em>Connect with me on LinkedIN</em></li>
+<li><a href="https://www.youtube.com/channel/UCNL7mOspHD_MIfC7PZmQJIg"><img src="images/youtube.png" alt="youtube" /></a><em>Watch me on YouTube</em></li>
+<li><a href="https://github.com/INlova"><img src="images/github.png" alt="github" /></a><em>Code along with me on Github</em></li>
+
+	
+	
+</body>
+</html>
